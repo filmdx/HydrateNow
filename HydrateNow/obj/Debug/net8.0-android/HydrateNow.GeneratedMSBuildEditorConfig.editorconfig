@@ -1,0 +1,77 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HydrateNow
+build_property.ProjectDir = C:\Users\film\source\repos\HydrateNow\HydrateNow\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/film/source/repos/HydrateNow/HydrateNow/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HydrateNow.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/film/source/repos/HydrateNow/HydrateNow/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HydrateNow.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/film/source/repos/HydrateNow/HydrateNow/FristPage/Alert.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HydrateNow.FristPage.Alert.xaml
+build_metadata.AdditionalFiles.TargetPath = FristPage\Alert.xaml
+build_metadata.AdditionalFiles.RelativePath = FristPage\Alert.xaml
+
+[C:/Users/film/source/repos/HydrateNow/HydrateNow/FristPage/datapage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HydrateNow.FristPage.datapage.xaml
+build_metadata.AdditionalFiles.TargetPath = FristPage\datapage.xaml
+build_metadata.AdditionalFiles.RelativePath = FristPage\datapage.xaml
+
+[C:/Users/film/source/repos/HydrateNow/HydrateNow/FristPage/login1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HydrateNow.FristPage.login1.xaml
+build_metadata.AdditionalFiles.TargetPath = FristPage\login1.xaml
+build_metadata.AdditionalFiles.RelativePath = FristPage\login1.xaml
+
+[C:/Users/film/source/repos/HydrateNow/HydrateNow/FristPage/Profile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HydrateNow.FristPage.Profile.xaml
+build_metadata.AdditionalFiles.TargetPath = FristPage\Profile.xaml
+build_metadata.AdditionalFiles.RelativePath = FristPage\Profile.xaml
+
+[C:/Users/film/source/repos/HydrateNow/HydrateNow/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HydrateNow.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[C:/Users/film/source/repos/HydrateNow/HydrateNow/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HydrateNow.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/film/source/repos/HydrateNow/HydrateNow/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HydrateNow.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/film/source/repos/HydrateNow/HydrateNow/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HydrateNow.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

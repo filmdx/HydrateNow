@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HydrateNow.FristPage.Alert"
+             Title="Alert">
+    <VerticalStackLayout Padding="10">
+        <Grid>
+
+            <BoxView BackgroundColor="LightBlue" HeightRequest="50" VerticalOptions="Start" />
+            <Label Text="Alert Settings" 
+               FontSize="25" 
+               VerticalOptions="Start" 
+               HorizontalOptions="Center" 
+               Margin="0,10,0,0"
+               TextColor="Black" />
+            <ImageButton Source="plus.png" 
+               HeightRequest="5" 
+               WidthRequest="5"
+               BackgroundColor="Transparent"
+               VerticalOptions="Center"
+               HorizontalOptions="End"
+               Margin="0,0,10,0"/>
+            <ImageButton Source="exit.png" 
+               HeightRequest="5" 
+               WidthRequest="5"
+               BackgroundColor="Transparent"
+               VerticalOptions="Center"
+               HorizontalOptions="Start"
+               Margin="10,0,0,0"/>
+        </Grid>
+
+        <CollectionView>
+            <CollectionView.ItemsSource>
+                
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>06:45 AM</x:String>
+                    <x:String>07:45 AM</x:String>
+                    <x:String>08:45 AM</x:String>
+                    <x:String>09:45 AM</x:String>
+                    <x:String>10:45 AM</x:String>
+                    <x:String>12:45 AM</x:String>
+                    <x:String>12:45 PM</x:String>
+                </x:Array>
+            </CollectionView.ItemsSource>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="{Binding}" 
+                           FontSize="20" 
+                           VerticalOptions="Center" 
+                           HorizontalOptions="Start" 
+                           TextColor="Black" />
+                        <Switch OnColor="LightGreen" 
+                            ThumbColor="#FFFDA0E4" 
+                            VerticalOptions="Center" 
+                            HorizontalOptions="End" />
+                        
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="1">
+            <Frame CornerRadius="15" BorderColor="#FF251414" Padding="10" HasShadow="False" Margin="20">
+                <HorizontalStackLayout>
+                    <Button Text="HOME" Background="Gray" x:Name="GoTodatapage" Clicked="GoTodatapage_Clicked" />
+                </HorizontalStackLayout>
+            </Frame>
+
+            <Frame CornerRadius="15" BorderColor="Gray" Padding="10" HasShadow="False" Margin="20">
+                <HorizontalStackLayout>
+                    <Button Text="PROFILE" Background="Gray" x:Name="GoToProfile" Clicked="GoToProfile_Clicked" />
+                </HorizontalStackLayout>
+            </Frame>
+        </StackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>
